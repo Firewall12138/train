@@ -1,12 +1,12 @@
-package com.firewall.train;
+package com.firewall.train.member.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class TestController {
+public class MemberController {
     @GetMapping("/hello")
     public String hello() {
-        return "Hello, World!";
+        return "Hello, World123!";
     }
 }
