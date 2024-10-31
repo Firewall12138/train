@@ -1,8 +1,10 @@
 package com.firewall.train.member.controller;
 
 import cn.hutool.core.collection.CollUtil;
+import com.firewall.train.common.resp.CommonResp;
 import com.firewall.train.member.domain.Member;
 import com.firewall.train.member.domain.MemberExample;
+import com.firewall.train.member.req.MemberRegisterReq;
 import com.firewall.train.member.servece.MemberService;
 import jakarta.annotation.Resource;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,14 +25,19 @@ public class MemberController {
     }
 
     @GetMapping("/count")
-    public int count() {
+    public CommonResp<Integer> count() {
         int count = memberService.count();
-        System.out.println(count);
-        return memberService.count();
+        CommonResp<Integer> resp = new CommonResp<>();
+        resp.setContent(count);
+        return resp;
     }
 
     @PostMapping("/register")
-    public long register(String mobile) {
-        return memberService.register(mobile);
+    public CommonResp<Long> register(MemberRegisterReq req) {
+        long id = memberService.register(req);
+        CommonResp<Long> resp = new CommonResp<>();
+        resp.setContent(id);
+        return resp;
+
     }
 }
