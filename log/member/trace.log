@@ -1,0 +1,35 @@
+2024-10-31 19:59:28.821 INFO  c.firewall.train.member.config.MemberApplication  :51   [32m                  [0;39m Starting MemberApplication using Java 17.0.11 with PID 7060 (E:\JavaLearning\train\member\target\classes started by firew in E:\JavaLearning\train)
+2024-10-31 19:59:28.826 INFO  c.firewall.train.member.config.MemberApplication  :630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-31 19:59:28.909 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-31 19:59:28.910 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-31 19:59:29.674 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=b1d996a7-35b7-3ea1-9135-ba50539af655
+2024-10-31 19:59:30.321 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8080 (http)
+2024-10-31 19:59:30.330 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8080"]
+2024-10-31 19:59:30.332 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-31 19:59:30.332 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-31 19:59:30.391 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring embedded WebApplicationContext
+2024-10-31 19:59:30.392 INFO  o.s.b.w.s.c.ServletWebServerApplicationContext    :291  [32m                  [0;39m Root WebApplicationContext: initialization completed in 1480 ms
+2024-10-31 19:59:31.137 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-31 19:59:31.684 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8080"]
+2024-10-31 19:59:31.701 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8080 (http) with context path '/member'
+2024-10-31 19:59:32.171 INFO  c.firewall.train.member.config.MemberApplication  :57   [32m                  [0;39m Started MemberApplication in 4.283 seconds (process running for 5.307)
+2024-10-31 19:59:32.174 INFO  c.firewall.train.member.config.MemberApplication  :19   [32m                  [0;39m 启动成功！
+2024-10-31 19:59:32.175 INFO  c.firewall.train.member.config.MemberApplication  :20   [32m                  [0;39m Member地址: 	http://127.0.0.1:8080
+2024-10-31 19:59:52.673 INFO  o.a.c.c.C.[Tomcat].[localhost].[/member]          :173  [32m                  [0;39m Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-10-31 19:59:52.674 INFO  org.springframework.web.servlet.DispatcherServlet :525  [32m                  [0;39m Initializing Servlet 'dispatcherServlet'
+2024-10-31 19:59:52.674 INFO  org.springframework.web.servlet.DispatcherServlet :547  [32m                  [0;39m Completed initialization in 0 ms
+2024-10-31 19:59:52.714 INFO  com.firewall.train.common.aspect.LogAspect        :54   [32m1730375992705rj3  [0;39m ------------- 开始 -------------
+2024-10-31 19:59:52.714 INFO  com.firewall.train.common.aspect.LogAspect        :55   [32m1730375992705rj3  [0;39m 请求地址: http://localhost:8080/member/register POST
+2024-10-31 19:59:52.715 INFO  com.firewall.train.common.aspect.LogAspect        :56   [32m1730375992705rj3  [0;39m 类名方法: com.firewall.train.member.controller.MemberController.register
+2024-10-31 19:59:52.715 INFO  com.firewall.train.common.aspect.LogAspect        :57   [32m1730375992705rj3  [0;39m 远程地址: 127.0.0.1
+2024-10-31 19:59:52.752 INFO  com.firewall.train.common.aspect.LogAspect        :78   [32m1730375992705rj3  [0;39m 请求参数: ["123456789"]
+2024-10-31 19:59:52.767 INFO  com.zaxxer.hikari.HikariDataSource                :110  [32m1730375992705rj3  [0;39m HikariPool-1 - Starting...
+2024-10-31 19:59:53.014 INFO  com.zaxxer.hikari.pool.HikariPool                 :565  [32m1730375992705rj3  [0;39m HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6189fc7c
+2024-10-31 19:59:53.016 INFO  com.zaxxer.hikari.HikariDataSource                :123  [32m1730375992705rj3  [0;39m HikariPool-1 - Start completed.
+2024-10-31 19:59:53.024 DEBUG c.firewall.train.member.mapper.MemberMapper.insert:137  [32m1730375992705rj3  [0;39m ==>  Preparing: insert into member (id, mobile) values (?, ?)
+2024-10-31 19:59:53.046 DEBUG c.firewall.train.member.mapper.MemberMapper.insert:137  [32m1730375992705rj3  [0;39m ==> Parameters: 1730375992752(Long), 123456789(String)
+2024-10-31 19:59:53.062 DEBUG c.firewall.train.member.mapper.MemberMapper.insert:137  [32m1730375992705rj3  [0;39m <==    Updates: 1
+2024-10-31 19:59:53.063 INFO  com.firewall.train.common.aspect.LogAspect        :90   [32m1730375992705rj3  [0;39m 返回结果: 1730375992752
+2024-10-31 19:59:53.064 INFO  com.firewall.train.common.aspect.LogAspect        :91   [32m1730375992705rj3  [0;39m ------------- 结束 耗时：359 ms -------------
+2024-10-31 22:04:58.233 INFO  com.zaxxer.hikari.HikariDataSource                :350  [32m                  [0;39m HikariPool-1 - Shutdown initiated...
+2024-10-31 22:04:58.239 INFO  com.zaxxer.hikari.HikariDataSource                :352  [32m                  [0;39m HikariPool-1 - Shutdown completed.

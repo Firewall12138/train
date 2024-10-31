@@ -1,0 +1,42 @@
+2024-10-27 21:25:10.517 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.cloud.gateway' to org.springframework.cloud.gateway.config.GatewayProperties failed:
+
+    Property: spring.cloud.gateway.routes[0].predicates
+    Value: "[]"
+    Reason: 不能为空
+
+    Property: spring.cloud.gateway.routes[0].uri
+    Value: "null"
+    Reason: 不能为null
+
+
+Action:
+
+Update your application's configuration
+
+2024-10-27 21:27:25.403 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[0]' to org.springframework.cloud.gateway.route.RouteDefinition:
+
+    Property: spring.cloud.gateway.routes[0]
+    Value: ""
+    Origin: class path resource [application.properties] - 6:31
+    Reason: failed to convert java.lang.String to org.springframework.cloud.gateway.route.RouteDefinition (caused by jakarta.validation.ValidationException: Unable to parse RouteDefinition text '', must be of the form name=value)
+
+Action:
+
+Update your application's configuration
+

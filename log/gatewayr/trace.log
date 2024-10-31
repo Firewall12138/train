@@ -1,0 +1,275 @@
+2024-10-27 21:22:35.041 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 30220 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:22:35.042 INFO  c.firewall.train.gateway.config.GatewayApplication:630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-27 21:22:35.243 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:22:35.276 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:22:35.282 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:22:35.283 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:22:36.013 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-10-27 21:22:36.013 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-10-27 21:22:36.013 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-10-27 21:22:36.014 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-10-27 21:22:36.014 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-10-27 21:22:36.014 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-10-27 21:22:36.014 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-10-27 21:22:36.014 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-10-27 21:22:36.015 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-10-27 21:22:36.015 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-10-27 21:22:36.015 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-10-27 21:22:36.015 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-10-27 21:22:36.015 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-10-27 21:22:36.015 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-10-27 21:22:36.044 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-27 21:22:36.554 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path ''
+2024-10-27 21:22:37.775 INFO  c.firewall.train.gateway.config.GatewayApplication:57   [32m                  [0;39m Started GatewayApplication in 3.757 seconds (process running for 47.287)
+2024-10-27 21:22:37.778 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-10-27 21:22:37.778 INFO  c.firewall.train.gateway.config.GatewayApplication:17   [32m                  [0;39m 启动成功！
+2024-10-27 21:22:37.779 INFO  c.firewall.train.gateway.config.GatewayApplication:18   [32m                  [0;39m Gateway地址: 	http://127.0.0.1:8000
+2024-10-27 21:22:55.721 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-10-27 21:22:55.773 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 3636 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:22:55.774 INFO  c.firewall.train.gateway.config.GatewayApplication:630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-27 21:22:55.817 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-27 21:22:55.817 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-27 21:22:56.488 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:22:56.729 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:22:56.737 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:22:56.738 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:22:56.738 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:22:57.902 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-10-27 21:22:57.902 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-10-27 21:22:57.903 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-10-27 21:22:57.903 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-10-27 21:22:57.903 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-10-27 21:22:57.903 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-10-27 21:22:57.904 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-10-27 21:22:57.904 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-10-27 21:22:57.904 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-10-27 21:22:57.904 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-10-27 21:22:57.905 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-10-27 21:22:57.905 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-10-27 21:22:57.905 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-10-27 21:22:57.905 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-10-27 21:22:58.070 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-27 21:22:58.614 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:22:58.633 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path ''
+2024-10-27 21:22:59.940 INFO  c.firewall.train.gateway.config.GatewayApplication:57   [32m                  [0;39m Started GatewayApplication in 5.224 seconds (process running for 6.349)
+2024-10-27 21:22:59.945 INFO  c.firewall.train.gateway.config.GatewayApplication:17   [32m                  [0;39m 启动成功！
+2024-10-27 21:22:59.945 INFO  c.firewall.train.gateway.config.GatewayApplication:18   [32m                  [0;39m Gateway地址: 	http://127.0.0.1:8000
+2024-10-27 21:25:08.063 INFO  o.s.b.d.a.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener:211  [32m                  [0;39m Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-10-27 21:25:08.109 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Pausing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:25:08.110 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-10-27 21:25:08.115 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Stopping ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:25:08.118 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Destroying ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:25:09.197 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 3636 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:25:09.198 INFO  c.firewall.train.gateway.config.GatewayApplication:630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-27 21:25:09.432 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:25:09.466 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:25:09.467 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:25:09.468 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:25:09.468 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:25:10.490 WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true
+2024-10-27 21:25:10.491 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-10-27 21:25:10.499 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-27 21:25:10.517 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target org.springframework.boot.context.properties.bind.BindException: Failed to bind properties under 'spring.cloud.gateway' to org.springframework.cloud.gateway.config.GatewayProperties failed:
+
+    Property: spring.cloud.gateway.routes[0].predicates
+    Value: "[]"
+    Reason: 不能为空
+
+    Property: spring.cloud.gateway.routes[0].uri
+    Value: "null"
+    Reason: 不能为null
+
+
+Action:
+
+Update your application's configuration
+
+2024-10-27 21:27:24.399 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 3636 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:27:24.399 INFO  c.firewall.train.gateway.config.GatewayApplication:630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-27 21:27:24.631 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:27:24.660 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:27:24.661 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:27:24.662 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:27:24.662 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:27:25.393 WARN  o.s.b.w.r.c.AnnotationConfigReactiveWebServerApplicationContext:592  [32m                  [0;39m Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'nettyWriteResponseFilter' defined in class path resource [org/springframework/cloud/gateway/config/GatewayAutoConfiguration$NettyConfiguration.class]: Unsatisfied dependency expressed through method 'nettyWriteResponseFilter' parameter 0: Error creating bean with name 'gatewayProperties': Could not bind properties to 'GatewayProperties' : prefix=spring.cloud.gateway, ignoreInvalidFields=false, ignoreUnknownFields=true
+2024-10-27 21:27:25.394 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Stopping service [Tomcat]
+2024-10-27 21:27:25.399 INFO  o.s.b.a.logging.ConditionEvaluationReportLogger   :82   [32m                  [0;39m 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-10-27 21:27:25.403 ERROR o.s.b.diagnostics.LoggingFailureAnalysisReporter  :40   [32m                  [0;39m 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cloud.gateway.routes[0]' to org.springframework.cloud.gateway.route.RouteDefinition:
+
+    Property: spring.cloud.gateway.routes[0]
+    Value: ""
+    Origin: class path resource [application.properties] - 6:31
+    Reason: failed to convert java.lang.String to org.springframework.cloud.gateway.route.RouteDefinition (caused by jakarta.validation.ValidationException: Unable to parse RouteDefinition text '', must be of the form name=value)
+
+Action:
+
+Update your application's configuration
+
+2024-10-27 21:27:41.333 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 3636 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:27:41.334 INFO  c.firewall.train.gateway.config.GatewayApplication:630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-27 21:27:41.652 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:27:41.726 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:27:41.726 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:27:41.727 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:27:41.728 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:27:43.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-10-27 21:27:43.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-10-27 21:27:43.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-10-27 21:27:43.644 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-10-27 21:27:43.645 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-10-27 21:27:43.645 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-10-27 21:27:43.645 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-10-27 21:27:43.645 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-10-27 21:27:43.645 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-10-27 21:27:43.645 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-10-27 21:27:43.646 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-10-27 21:27:43.646 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-10-27 21:27:43.646 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-10-27 21:27:43.646 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-10-27 21:27:43.745 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-27 21:27:44.621 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:27:44.625 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path ''
+2024-10-27 21:27:46.740 INFO  c.firewall.train.gateway.config.GatewayApplication:57   [32m                  [0;39m Started GatewayApplication in 6.422 seconds (process running for 293.15)
+2024-10-27 21:27:46.745 INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener :63   [32m                  [0;39m Condition evaluation unchanged
+2024-10-27 21:27:46.747 INFO  c.firewall.train.gateway.config.GatewayApplication:17   [32m                  [0;39m 启动成功！
+2024-10-27 21:27:46.748 INFO  c.firewall.train.gateway.config.GatewayApplication:18   [32m                  [0;39m Gateway地址: 	http://127.0.0.1:8000
+2024-10-27 21:40:19.060 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-10-27 21:40:19.185 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 30116 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:40:19.187 INFO  c.firewall.train.gateway.config.GatewayApplication:636  [32m                  [0;39m The following 1 profile is active: "-Dreactor.netty.http.server.accessLogEnabled=true"
+2024-10-27 21:40:19.236 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-27 21:40:19.236 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-27 21:40:19.828 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:40:20.075 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:40:20.084 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:40:20.085 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:40:20.085 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:40:21.301 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-10-27 21:40:21.301 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-10-27 21:40:21.302 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-10-27 21:40:21.302 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-10-27 21:40:21.302 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-10-27 21:40:21.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-10-27 21:40:21.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-10-27 21:40:21.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-10-27 21:40:21.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-10-27 21:40:21.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-10-27 21:40:21.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-10-27 21:40:21.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-10-27 21:40:21.303 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-10-27 21:40:21.304 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-10-27 21:40:21.468 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-27 21:40:22.111 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:40:22.129 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path ''
+2024-10-27 21:40:23.339 INFO  c.firewall.train.gateway.config.GatewayApplication:57   [32m                  [0;39m Started GatewayApplication in 5.213 seconds (process running for 6.35)
+2024-10-27 21:40:23.342 INFO  c.firewall.train.gateway.config.GatewayApplication:17   [32m                  [0;39m 启动成功！
+2024-10-27 21:40:23.343 INFO  c.firewall.train.gateway.config.GatewayApplication:18   [32m                  [0;39m Gateway地址: 	http://127.0.0.1:8000
+2024-10-27 21:42:01.610 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-10-27 21:42:01.675 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 29184 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:42:01.677 INFO  c.firewall.train.gateway.config.GatewayApplication:630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-27 21:42:01.744 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-27 21:42:01.744 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-27 21:42:02.578 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:42:02.825 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:42:02.833 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:42:02.834 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:42:02.834 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:42:04.197 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-10-27 21:42:04.197 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-10-27 21:42:04.197 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-10-27 21:42:04.197 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-10-27 21:42:04.197 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-10-27 21:42:04.198 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-10-27 21:42:04.198 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-10-27 21:42:04.198 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-10-27 21:42:04.198 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-10-27 21:42:04.198 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-10-27 21:42:04.198 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-10-27 21:42:04.198 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-10-27 21:42:04.198 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-10-27 21:42:04.199 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-10-27 21:42:04.377 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-27 21:42:05.010 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:42:05.033 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path ''
+2024-10-27 21:42:06.365 INFO  c.firewall.train.gateway.config.GatewayApplication:57   [32m                  [0;39m Started GatewayApplication in 5.977 seconds (process running for 6.967)
+2024-10-27 21:42:06.368 INFO  c.firewall.train.gateway.config.GatewayApplication:17   [32m                  [0;39m 启动成功！
+2024-10-27 21:42:06.369 INFO  c.firewall.train.gateway.config.GatewayApplication:18   [32m                  [0;39m Gateway地址: 	http://127.0.0.1:8000
+2024-10-27 21:43:30.671 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-10-27 21:43:30.722 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 18988 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:43:30.724 INFO  c.firewall.train.gateway.config.GatewayApplication:630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-27 21:43:30.766 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-27 21:43:30.767 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-27 21:43:31.378 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:43:31.753 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:43:31.761 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:43:31.762 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:43:31.762 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:43:32.937 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-10-27 21:43:32.937 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-10-27 21:43:32.937 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-10-27 21:43:32.937 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-10-27 21:43:32.937 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-10-27 21:43:32.938 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-10-27 21:43:32.938 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-10-27 21:43:32.938 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-10-27 21:43:32.938 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-10-27 21:43:32.938 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-10-27 21:43:32.938 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-10-27 21:43:32.938 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-10-27 21:43:32.939 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-10-27 21:43:32.939 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-10-27 21:43:33.124 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-27 21:43:33.675 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:43:33.693 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path ''
+2024-10-27 21:43:35.218 INFO  c.firewall.train.gateway.config.GatewayApplication:57   [32m                  [0;39m Started GatewayApplication in 5.579 seconds (process running for 6.729)
+2024-10-27 21:43:35.221 INFO  c.firewall.train.gateway.config.GatewayApplication:17   [32m                  [0;39m 启动成功！
+2024-10-27 21:43:35.221 INFO  c.firewall.train.gateway.config.GatewayApplication:18   [32m                  [0;39m Gateway地址: 	http://127.0.0.1:8000
+2024-10-27 21:45:28.411 INFO  org.hibernate.validator.internal.util.Version     :21   [32m                  [0;39m HV000001: Hibernate Validator 8.0.0.Final
+2024-10-27 21:45:28.460 INFO  c.firewall.train.gateway.config.GatewayApplication:51   [32m                  [0;39m Starting GatewayApplication using Java 17.0.11 with PID 31420 (E:\JavaLearning\train\gateway\target\classes started by firew in E:\JavaLearning\train)
+2024-10-27 21:45:28.461 INFO  c.firewall.train.gateway.config.GatewayApplication:630  [32m                  [0;39m No active profile set, falling back to 1 default profile: "default"
+2024-10-27 21:45:28.500 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-10-27 21:45:28.500 INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor :250  [32m                  [0;39m For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-10-27 21:45:29.041 INFO  o.springframework.cloud.context.scope.GenericScope:282  [32m                  [0;39m BeanFactory id=ac899d99-8cb2-3d43-8ff5-7c23863b4657
+2024-10-27 21:45:29.235 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :114  [32m                  [0;39m Tomcat initialized with port(s): 8000 (http)
+2024-10-27 21:45:29.243 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Initializing ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:45:29.243 INFO  org.apache.catalina.core.StandardService          :173  [32m                  [0;39m Starting service [Tomcat]
+2024-10-27 21:45:29.244 INFO  org.apache.catalina.core.StandardEngine           :173  [32m                  [0;39m Starting Servlet engine: [Apache Tomcat/10.1.1]
+2024-10-27 21:45:30.200 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [After]
+2024-10-27 21:45:30.201 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Before]
+2024-10-27 21:45:30.201 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Between]
+2024-10-27 21:45:30.201 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Cookie]
+2024-10-27 21:45:30.201 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Header]
+2024-10-27 21:45:30.201 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Host]
+2024-10-27 21:45:30.202 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Method]
+2024-10-27 21:45:30.202 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Path]
+2024-10-27 21:45:30.202 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Query]
+2024-10-27 21:45:30.202 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [ReadBody]
+2024-10-27 21:45:30.202 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [RemoteAddr]
+2024-10-27 21:45:30.202 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [XForwardedRemoteAddr]
+2024-10-27 21:45:30.202 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [Weight]
+2024-10-27 21:45:30.202 INFO  o.s.c.gateway.route.RouteDefinitionRouteLocator   :88   [32m                  [0;39m Loaded RoutePredicateFactory [CloudFoundryRouteService]
+2024-10-27 21:45:30.360 INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer    :59   [32m                  [0;39m LiveReload server is running on port 35729
+2024-10-27 21:45:30.880 INFO  org.apache.coyote.http11.Http11NioProtocol        :173  [32m                  [0;39m Starting ProtocolHandler ["http-nio-8000"]
+2024-10-27 21:45:30.896 INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer      :226  [32m                  [0;39m Tomcat started on port(s): 8000 (http) with context path ''
+2024-10-27 21:45:31.845 INFO  c.firewall.train.gateway.config.GatewayApplication:57   [32m                  [0;39m Started GatewayApplication in 4.216 seconds (process running for 4.972)
+2024-10-27 21:45:31.848 INFO  c.firewall.train.gateway.config.GatewayApplication:17   [32m                  [0;39m 启动成功！
+2024-10-27 21:45:31.848 INFO  c.firewall.train.gateway.config.GatewayApplication:18   [32m                  [0;39m Gateway地址: 	http://127.0.0.1:8000
